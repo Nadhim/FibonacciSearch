@@ -75,12 +75,13 @@ iterations(n)
 
 
 #Plotting the graph to visualize the equation
-import matplotlib.pyplot as plt
-import numpy as np
+#Please install the following libraries before proceeding with the code below: matplotlib, numpy
+# import matplotlib.pyplot as plt
+# import numpy as np
  
 
-x = np.linspace(start, end,10)
-y = (x**4) - (14*(x**3)) + (60*(x**2)) - (70*x)
-fig = plt.figure(figsize = (10, 5))
-plt.plot(x, y)
-plt.show()
+# x = np.linspace(start, end,10)
+# y = (x**4) - (14*(x**3)) + (60*(x**2)) - (70*x)
+# fig = plt.figure(figsize = (10, 5))
+# plt.plot(x, y)
+# plt.show()
